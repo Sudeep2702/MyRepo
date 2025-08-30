@@ -1,7 +1,6 @@
-# MyRepo
-
-Learning GitHub
-
+ ctrl + I
+participants
+/fix , explain 
 
 git : it is a software
 
@@ -38,6 +37,34 @@ After Modifying
 8.pusing from local     git push origin main
   to git hub
 
+when we create a project first on local and then we need to create
+and push the project to new repo
+
+  first go to new folder
+  check git is there or 
+  not using                 ls -a
+
+1.create new localrepo       git init (now git is initialised and u can find .git in ls-a)
+                             git add . add all files
+			     git commit
+2.push the same proj
+ inside the git
+
+ substeps
+
+  1.create a new repo 
+    inside the git
+  2.now add the repolink using :   git remote add origin <link> 
+  3.verify it                  :   git remote -v
+
+Branches : when ever many are working on a same project each will be assigned a diff branch
+  4.to check the branch        :   git branch
+  5.to rename                  :   git branch -M <newname>
+  6.push                       :   git push -u origin <newname> (-u means telling gitbash
+                                      
+
+
+
 untracked -- git wont track
 modified -- its modified 
 staged -- file is ready to commit (after add )
@@ -48,10 +75,9 @@ unmodified -- u
 
 note : Your branch is ahead of 'origin/main' by 1 commit. 
 means : vs code commit is one step ahead and its still not visible inside the github
+        that i will be commiting to the same origin for long time
+         
 
-
-
- 
 
 
 
