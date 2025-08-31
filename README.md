@@ -2,4 +2,4 @@ feature1
 this is a new feature
 =======
 this is old feature
- main
+main
